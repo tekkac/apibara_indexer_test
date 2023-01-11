@@ -3,6 +3,7 @@ import { StreamClient, ChannelCredentials, v1alpha2 } from '@apibara/protocol'
 import { Filter, FieldElement, v1alpha2 as starknet } from '@apibara/starknet'
 import { hash } from 'starknet'
 
+
 const ETH_DECIMALS = 18
 
 function toDecimalAmount(amount: bigint): Decimal {
@@ -26,6 +27,7 @@ function storageVarAddress(name: string, args: bigint[]): bigint {
 }
 
 async function main() {
+    setInterval(() => { }, 999_999_999)
     console.log('Streaming all Transfer events for ETH')
 
     // Encode address to the wire format.
