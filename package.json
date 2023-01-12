@@ -16,7 +16,10 @@
     "@types/node": "^18.11.18",
     "decimal.js": "^10.4.3",
     "express": "^4.18.2",
-    "starknet": "^4.17.1"
+    "pg": "^8.8.0",
+    "reflect-metadata": "^0.1.13",
+    "starknet": "^4.17.1",
+    "typeorm": "^0.3.11"
   },
   "scripts": {
     "start": "ts-node src/index.ts"
